@@ -46,5 +46,13 @@ else if (currentElement === 'E'){
 }
 
 export function exercise04(args) {
-  
+  const input = args
+  const result = []
+  let count = 1
 
+  for (let i= 0; i < input.length; i++) {
+    const currentElement = input[i]
+    if (currentElement === " ")
+  }
+return count
+}
