@@ -45,14 +45,61 @@ else if (currentElement === 'E'){
   return count
 }
 
-export function exercise04(args) {
+export function exercise04 (args) {
   const input = args
   const result = []
-  let count = 1
-
-  for (let i= 0; i < input.length; i++) {
+  print(input)
+ 
+  let count = 0
+ 
+  for (let i = 0; i < input.length; i++) {
     const currentElement = input[i]
-    if (currentElement === " ")
-  }
-return count
+   
+    if ("+,-.#%&/()=?£}{$¦@¬|¢´!<>°§;':_~^*][¨".indexOf(currentElement) >= 0) {
+      
+    }  else{
+        result.push(currentElement)
 }
+}
+ 
+const clearedString = result.join("")
+
+const tmp = clearedString.split(" ")
+
+print(tmp)
+ 
+return tmp.length
+}
+
+export function exercise05 (args) {
+const input = args
+
+for (let i = 0; i < input.length; i++) {
+const currentElement = input[i].charCodeAt()
+if (currentElement >= 65 && currentElement <= 90)
+return true
+}
+
+return false
+
+}
+
+export function exercise06 (args) {
+  const input = args
+  
+  for (let i = 0; i < input.length; i++) {
+  const currentElement = input[i]
+  if (
+( )
+
+
+
+  )
+  return true
+  }
+  
+  return false
+  
+  }
+  
+  
