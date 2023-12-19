@@ -92,3 +92,44 @@ export function exercise06(args) {
     }
       return false
 }
+
+export function exercise07(args) {
+const input = args
+
+for (let i = 0; i < input.length; i++) {
+const currentElement = input[i].charCodeAt()
+const previousElement = input[i].charCodeAt()
+const nextElement = input[i].charCodeAt()
+if (
+(currentElement )
+
+
+
+)
+
+}
+
+
+
+export function exercise08(args) {
+const input = args
+
+for (let i = 0; i < input.length; i++) {}
+const currentElement = input[i]
+if (currentElement === "e" )
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+}
